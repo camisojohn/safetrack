@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#1A2940"
+    android:id="@+id/splashLayout">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@mipmap/ic_launcher"
+        android:alpha="0"
+        android:contentDescription="Logo"/>
+
+    <TextView
+        android:id="@+id/tvSplashTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SafeTrack"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:alpha="0"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/tvSplashSub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connecting Communities, Protecting Lives"
+        android:textColor="#AAAAAA"
+        android:textSize="13sp"
+        android:alpha="0"
+        android:layout_marginTop="8dp"/>
+
+    <ProgressBar
+        android:id="@+id/splashProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminateTint="#FFFFFF"
+        android:alpha="0"
+        android:layout_marginTop="40dp"/>
+
+</LinearLayout>
