@@ -34,6 +34,9 @@
         <activity android:name=".AdminDashboardActivity"/>
         <activity android:name=".utils.NotificationActivity"/>
         <activity android:name=".IncidentDetailActivity"/>
+        <activity android:name=".ReportUserActivity"/>
+        <activity android:name=".ArchivesActivity"/>
+        <activity android:name=".MyReportsActivity"/>
 
     </application>
 </manifest>
